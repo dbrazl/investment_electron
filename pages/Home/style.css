@@ -1,0 +1,73 @@
+@import url("../../styles/global.css");
+
+.title {
+  font-weight: unset;
+  font-size: 64px;
+  margin: 50px 0;
+}
+
+.searchField {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+}
+
+.icon {
+  width: 25px;
+  object-fit: contain;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 10px;
+}
+
+.search {
+  width: 380px;
+  height: 45px;
+  text-align: center;
+  font-size: 24px;
+  border-bottom: 1px solid #000;
+  padding-left: 30px;
+}
+
+.list {
+  width: 666px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.item {
+  width: 300px;
+  height: 55px;
+  border-radius: 10px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(17, 153, 142, 1) 0%,
+    rgba(56, 239, 125, 1) 100%
+  );
+  list-style-type: none;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.item + .item {
+  margin-right: 30px;
+}
+
+p {
+  height: 25px;
+  max-height: 25px;
+  width: 250px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 24px;
+  color: #fff;
+  overflow: hidden;
+  padding: 10px 20px;
+}

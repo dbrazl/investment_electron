@@ -1,0 +1,17 @@
+@import url("../../styles/global.css");
+@import url("../../styles/investiments.css");
+
+form {
+  flex-direction: row;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div + div {
+  margin-left: 50px;
+}

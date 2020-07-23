@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LTN</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Commercial paper</h1>
+      <a href="../Home/index.html">voltar</a>
+    </header>
+
+    <form>
+      <input type="text" placeholder="retorno esperado" class="rescue" />
+      <input
+        type="text"
+        placeholder="taxa de desconto mensal"
+        class="discountRate"
+      />
+      <input
+        type="text"
+        placeholder="despezas com lançamento"
+        class="lauchExpenses"
+      />
+    </form>
+
+    <footer name="return">
+      <p class="smallLabel">retorno anual</p>
+      <p class="percent">0.00%</p>
+    </footer>
+
+    <script src="../../model/Investimments.js"></script>
+    <script src="../../libs/input.js"></script>
+    <script src="../../libs/debounce.js"></script>
+    <script src="../../libs/jquery.js" defer></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>

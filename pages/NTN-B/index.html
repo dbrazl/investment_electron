@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LTN</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>NTN-B - Nota do Tesouro Nacional tipo B</h1>
+      <a href="../Home/index.html">voltar</a>
+    </header>
+
+    <form>
+      <div>
+        <input type="text" placeholder="data de compra" class="buy" />
+        <input type="text" placeholder="data de vencimento" class="due" />
+        <input type="text" placeholder="tir" class="tir" />
+      </div>
+      <div>
+        <input type="text" placeholder="IPCA no período" class="ipca" />
+        <input
+          type="text"
+          placeholder="data do termino do IPCA"
+          class="ipcaLastDate"
+        />
+        <input
+          type="text"
+          placeholder="IPCA do mês anterior"
+          class="ipcaMonth"
+        />
+      </div>
+    </form>
+
+    <footer name="return">
+      <p class="smallLabel">preço</p>
+      <p class="price">R$ 0.00</p>
+    </footer>
+
+    <script src="../../model/Investimments.js"></script>
+    <script src="../../libs/input.js"></script>
+    <script src="../../libs/debounce.js"></script>
+    <script src="../../libs/jquery.js" defer></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+h1 {
+  width: 666px;
+  margin-top: 100px;
+  font-weight: unset;
+  font-size: 64px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+}
+
+a {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 32px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input + input {
+  margin-top: 20px;
+}
+
+form {
+  flex: 1;
+  max-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.smallLabel {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.percent,
+.price {
+  font-size: 64px;
+  color: #11998e;
+}
+
+footer {
+  position: absolute;
+  bottom: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("../assets/fonts/Nunito/Nunito-Regular.ttf") format("ttf");
+}
+
+* {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+p,
+h1,
+input,
+li,
+a {
+  font-family: "Nunito";
+}
+
+a,
+a:link,
+a:visited {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  width: 350px;
+  height: 45px;
+  font-size: 24px;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #000;
+  opacity: 1;
+}
+
+input:-ms-input-placeholder {
+  color: #000;
+}
+
+input::-ms-input-placeholder {
+  color: #000;
+}
